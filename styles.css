@@ -1,0 +1,490 @@
+@font-face{
+	font-family: 'GT-America-Ita';
+	src: url('fonts/GT-America-Trial-Regular-Italic.otf');
+}
+
+@font-face{
+	font-family: 'GT-America-Reg';
+	src: url('fonts/GT-America-Regular.otf');
+}
+
+html, body, p{
+	margin: 0;
+	font-family:'GT-America-Reg';
+	font-weight: 400;
+	overflow-x: hidden;
+/*	margin-bottom: 24px;*/
+}
+
+::selection{
+	background-color: yellow;
+	color: blue;
+}
+
+
+
+/*IPHONE*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 599px){
+/*STRUCTURE*/
+
+	#container1{
+		width: 100vw;
+	}
+
+	#work, #noneB{
+		font-size: 18px;
+		margin-bottom: 20px;
+		margin-left: 14px;
+		margin-top: 64px;
+	}
+
+	.asside{
+		right: 14px;
+		height: 48px;
+	}
+
+	#me{
+		font-size: 24px;
+		margin-left: 14px;
+	}
+
+	#about{
+		font-size: 24px;
+		position: 0;
+		margin-right: 14px;
+	}
+
+	#newHeader{
+		height: 48px;
+		width: 100vw;
+		border-bottom: 2px black solid;
+		margin-bottom: 18px;
+	}
+/*HOMEPAGE*/
+	.hpImg{
+		width: 100%;
+		height: auto;
+	}
+
+	.hpContainer{
+		width: 90%;
+		margin-left: 5%;
+		margin-bottom: 60px;
+	}
+
+	.hpTextCont{
+		width: 100%;
+	}
+
+	.hpTitle{
+		font-size: 24px;
+		margin-top: 16px;
+
+	}
+
+	.hpTag{
+		font-size: 18px;
+			margin-top: 12px;
+
+	}
+
+	.hpDescrip{
+		font-size: 18px;
+		margin-top: 12px;
+		font-family: "GT-America-Ita";
+
+	}
+
+
+/*INDIVIDUAL PROJECTS*/
+
+	.projectCont{
+		width: 90%;
+		margin-left: 5%;
+
+	}
+
+	.projTitle{
+		font-size: 24px;
+		margin-bottom: 5px;
+	}
+
+	.projText{
+		width: 100%;
+		font-size: 18px;
+		margin-bottom: 10px;
+		margin-bottom: 30px;
+
+	}
+
+	.projImg{
+		margin-top: 30px;
+	}
+
+	.projTag{
+		margin-bottom: 10px;
+	}
+
+	#footer{
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+
+	#back{
+		font-size: 18px;
+		margin-left: 5%;
+	}
+
+	#next{
+		font-size: 18px;
+		margin-right: 5%;
+	}
+
+
+/*ABOUT PAGE*/
+	.bio{
+		margin-left: 14px;
+		width: 100%;
+		font-size: 24px;
+		margin-bottom: 48px;
+	}
+
+
+	.arrow{
+		height: 20px;
+		margin-right: 16px;
+	}
+
+	.socialCont{
+		display: block;
+	}
+
+
+}
+
+/*TABLET PORTRAIT */
+@media only screen and (min-device-width : 600px) and (max-device-width : 899px) {
+
+}
+
+/*TABLET LANDSCAPE */
+@media only screen and (min-device-width : 900px) and (max-device-width : 1199px){
+
+}
+
+/*DESKTOP*/
+@media only screen and (min-device-width : 1200px) and (max-device-width : 1799px){
+
+/*STRUCTURE*/
+
+	#container1{
+		width: 100vw;
+		margin-top: 24px;
+	}
+
+	#work, #noneB{
+		font-size: 18px;
+		margin-bottom: 20px;
+		margin-left: 14px;
+		margin-top: 64px;
+	}
+
+	.asside{
+		right: 14px;
+		height: 48px;
+	}
+
+	#me{
+		font-size: 24px;
+		margin-left: 14px;
+	}
+
+	#about{
+		font-size: 24px;
+		position: 0;
+		margin-right: 14px;
+	}
+
+	#newHeader{
+		height: 48px;
+		width: 100vw;
+		border-bottom: 2px black solid;
+		margin-bottom: 30px;
+	}
+
+
+/*HOMEPAGE*/
+	.hpImg{
+		width: 80%;
+		height: auto;
+		margin-left: 10%;
+	}
+
+	.hpContainer{
+		width: 80vw;
+		margin-bottom: 60px;
+	}
+
+	.rightHp{
+		margin-left: 20vw;
+	}
+
+	.hpTextCont{
+		width: 60%;
+		margin-left: 10%;
+	}
+
+	.hpTitle{
+		font-size: 24px;
+		margin-top: 16px;
+
+	}
+
+	.hpTag{
+		font-size: 18px;
+			margin-top: 12px;
+
+	}
+
+	.hpDescrip{
+		font-size: 18px;
+		margin-top: 12px;
+		font-family: "GT-America-Ita";
+
+	}
+
+
+/*INDIVIDUAL PROJECTS*/
+
+	.projectCont{
+		width: calc(100vw - 96px);
+		margin-left: 48px;
+
+	}
+
+	.projTitle{
+		font-size: 24px;
+		margin-bottom: 5px;
+	}
+
+	.projText{
+		width: 60%;
+		margin-bottom: 10px;
+		margin-bottom: 30px;
+
+	}
+
+	.projImg{
+		margin-top: 30px;
+	}
+
+	.projTag{
+		margin-bottom: 10px;
+	}
+
+	#footer{
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+
+	#back{
+		font-size: 18px;
+		margin-left: 48px;
+	}
+
+	#next{
+		font-size: 18px;
+		margin-right: 48px;
+	}
+
+
+/*ABOUT PAGE*/
+	.bio{
+		margin-left: 14px;
+		width: 50%;
+		font-size: 24px;
+		margin-bottom: 48px;
+	}
+
+
+	.arrow{
+		height: 20px;
+		margin-right: 16px;
+	}
+
+	.socialCont{
+		display: block;
+	}
+
+
+}
+
+
+/*BIG DESKTOP*/
+@media only screen and (min-device-width : 1800px) and (max-device-width : 2900px) {
+
+
+
+} 
+
+
+
+
+/*UNIVERSAL*/
+
+
+	/*STRUCTURE*/
+
+		#container1{
+			display: inline-block;	
+		}
+
+		.asside{
+			display: inline-block;
+			position: absolute;
+		}
+
+		#me{
+			display: inline-block;
+			position: relative;
+			top: 50%;
+			transform: translate(0%, -50%);
+		}
+
+		#about{
+			display: inline-block;
+			position: relative;
+			top: 50%;
+			transform: translate(0%, -50%);
+			position: 0;
+		}
+
+		#newHeader{
+			top: 0;
+			left: 0;
+			position: fixed;
+			background-color: white;
+			display: inline-block;
+
+		}
+
+
+	/*HOMEPAGE*/
+		.hpImg{
+			cursor: url('arrow.ico'), default;
+		}
+
+		.hpContainer{
+			display: inline-block;
+		}
+
+		.hpTitle{
+			cursor: pointer;
+		}
+
+		.hpDescrip{
+			cursor: pointer;
+		}
+
+		.hpTag{
+			cursor: pointer;
+		}
+
+
+	/*INDIVIDUAL PROJECTS*/
+		.projectInfo{
+			display: inline-block;
+		}
+
+
+		.projImg{
+			width: 100%;
+		}
+
+		#footer{
+			width: 100vw;
+			display: inline-block;
+		}
+		#back{
+
+				display: inline-block;
+		}
+		#next{
+
+				position: absolute;
+				right: 0;
+				display: inline-block;
+		}
+
+
+
+	/*ABOUT PAGE*/
+
+		.arrow{
+			display: inline-block;
+			margin-left: 16px;
+		}
+
+
+		.social{
+			text-decoration: none;
+			display: inline-block;
+			font-size: 24px;
+			margin-bottom: 4px;
+		}
+
+		.socialCont{
+			display: block;
+		}
+
+
+
+
+
+
+
+
+	/*NEVER CAHNGES*/
+		a{
+			color: black;
+		}
+
+		.more:hover{
+			text-decoration: underline;
+		}
+
+		#back:hover{
+			text-decoration: underline;
+		}
+		#next:hover{
+			text-decoration: underline;
+		}
+
+		#me:hover{
+			font-family: 'GT-America-Ita';
+		}
+		#about:hover{
+			font-family: 'GT-America-Ita';
+		}
+		.hpTitle:hover{
+			text-decoration: underline;
+		}
+		.social:hover{
+			font-family: 'GT-America-Ita';
+		}
+
+		::-webkit-scrollbar {
+		  width: 1vw;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+		  background: transparent; 
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		  background: black; 
+		}
+
+

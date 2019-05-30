@@ -1,0 +1,101 @@
+{
+	"content": {
+		"projects": [
+			{"title": "Select All",
+				"text": ["Our social media feeds are an endless scroll of news, but social media algorithms create echo chambers which are online environments that echo our beliefs and ignore alternative opinions. These gaps in information are dangerous and have the potential to lead to greater political polarization and a less informed society.", "Select All is an interactive website that aggregates news and draws attention to echo chambers and the news that they omit. Using data from Twitter, users can search for news topics and view coverage on a daily, weekly, monthly, or yearly view. They can chose to view all of the news or toggle between liberal and conservative echo chambers."],
+				"images":["images/Select All/01.gif", "images/Select All/full2.gif","images/Select All/02.png", "images/Select All/05.png", "images/Select All/04.png"],
+				"videos":[],
+				"links": "",
+				"tags" : "Interaction Design", 
+				"year" : "2019", 
+				"description" : "A news aggregating site that draws awareness to echo chambers and the information that our social media feeds leave out.", 
+				"hpImage" : "images/Select All/01.gif"
+			},
+			{
+				"title": "Frankenstein",
+				"text": ["This design of the original 1818 Frankenstein text plays on the variety of ways Mary Shelley was influenced in her writing. Just like Frankenstein’s monster was composed of odds and ends, the text itself is made up of fragmented pieces of inspiration from German horror stories to current advances in science. This book uses the Questa typeface family to represent the novel’s numerous influences. The cover is a generative artwork, created on Processing that uses Perlin noise to randomize the width and height of rectangles."],
+				"images":["images/Frankenstein/01.jpg", "images/Frankenstein/02.gif", "images/Frankenstein/04.jpg", "images/Frankenstein/03.jpg"],
+				"links": "none",
+				"tags" : "Book Design",
+				"year" : "2018",
+				"description" : "A book of the 1818 Frankenstein text designed to reflect the Mary Shelley’s various influences on the composition of the story.",
+				"hpImage" : "images/Frankenstein/01.jpg"
+			},
+			{
+				"title": "Craigsmaps",
+				"text": ["Criagsmaps is an interactive project that brings all active Craigslists feeds into one place. It uses the Google Maps API on the right to navigate through the different listings. With each location, Craigsmpas will load listings from the community section and the for sale section."],
+				"images":["images/Craigsmaps/01.png"],
+				"links": "none",
+				"tags" : "Interaction Design",
+				"year" : "2019",
+				"description" : "A website that gives a global view of Craigslist.",
+				"hpImage" : "images/Craigsmaps/01.png"
+			},
+			{
+				"title": "@POTUS",
+				"text": ["FDR had the radio, Kennedy had the television, and now Trump has the tweet. With Twitter, Donald Trump has completely changed how a President communicates to the public. @POTUS uniquely serves as a categorical reference guide to the tweets from @realDonaldTrump from his first year in office.", "All 2,014 tweets from January 20, 2016 to January 19, 2017 were collected and categorized and placed chronologically. This format allows for narrative arcs in policy or Donald Trump’s personal feelings to emerge, something that is lost in the decontextualized feed structure of Twitter.", "This book was created in collaboration with Morgan Lawrence."],
+				"images":["images/@POTUS/01.jpg", "images/@POTUS/03.jpg", "images/@POTUS/02.gif","images/@POTUS/04.jpg"],
+				"links": "none",
+				"tags" : "Book Design",
+				"year" : "2018", 
+				"description" : "A categorical reference guide to the presidential Tweets of Donald Trump. @POTUS includes 745 tweets from topics including Inauguration Day, First Amendment, Immigration, Media, and Russia. ",
+				"hpImage" : "images/@POTUS/01.gif"
+			}, 
+			{
+				"title": "The New School Free Press",
+				"text": ["The New School Free Press is the New School’s independent student-run newspaper. For a year I worked as the Creative Director of the Free Press where worked on the rebrand of the publication, designed print issues, and created promotional materials."],
+				"images":["images/fp/1.jpg","images/fp/2.jpg","images/fp/3.jpg", "images/fp/4.jpg", "images/fp/6.jpg", "images/fp/7.jpg", "images/fp/8.jpg"],
+				"links": "none",
+				"tags" : "Branding & Editorial Design", 
+				"year" : "2018",
+				"description" : "The print and promotional design for The New School Free Press, the New School’s student-run newspaper.",
+				"hpImage" : "images/fp/1.jpg"
+			},
+
+
+			{
+				"title": "Lost &amp; Found",
+				"text": ["Everyday we walk down the streets, unaware of memories that have been created throughout those same streets. Lost & Found is an app that seeks to give these memories a new life. It is a platform for discovery and reflection as people share their own experiences, comment on those of others, and explore the memories of a place."],
+				"images":["images/LF/video1.gif","images/LF/video2.gif","images/LF/video3.gif", "images/LF/Lf1.png", "images/LF/Lf2.png", "images/LF/Lf3.png", "images/LF/Lf4.png"],
+				"videos":["images/LF/01.mp4", "images/LF/02.mp4", "images/LF/03.mp4"],
+				"links": "https://vimeo.com/309510233",
+				"tags" : "Interaction Design", 
+				"year" : "2018",
+				"description" : "An app designed for users to rediscover and share memories. ",
+				"hpImage" : "images/LF/hp.gif"
+
+			},
+
+			{
+				"title": "Out There Mag",
+				"text": ["Out There Mag is a publication designed to present a variety of unpopular opinions. The first and second issues are printed and focus on unpopular political and lifestyle opinions. All content for these magazines is sourced from Reddit, Twitter, and alternative media outlets. "],
+				"images":["images/OutThere/Iss101.jpg", "images/OutThere/Iss102.gif", "images/OutThere/Iss103.jpg", "images/OutThere/Iss201.jpg", "images/OutThere/Iss202.gif", "images/OutThere/Iss203.jpg"],
+				"links": "none",
+				"tags" : "Editorial Design",
+				"year" : "2017",
+				"description" : "A series of publications about the unpopular and out there and unpopular opinions. ",
+				"hpImage" : "images/OutThere/ot.gif"
+			},
+			{
+				"title": "Out There Online",
+				"text": ["Out There Mag is a publication designed to present a variety of unpopular opinions. The third and digital issues looks at unpopular opinions about love and relationships."],
+				"images":["images/OutThere/Iss301.gif"],
+				"links": "none",
+				"tags" : "Interaction Design",
+				"year" : "2017",
+				"description" : "An online website that aggregates unpopular opinions about love and relationships",
+				"hpImage" : "images/OutThere/Iss301.gif"
+			},
+			{
+				"title": "Experiments",
+				"text": ["A collection of experimental typographic sketches. They were created using Processing, p5.js or three.js."],
+				"images":["images/Experiments/flock.gif", "images/Experiments/hello2.gif", "images/Experiments/hello3.gif"],
+				"links": "none",
+				"tags" : "Creative Coding", 
+				"year" : "2018",
+				"description" : "Typographic coding sketches",
+				"hpImage" : "images/Experiments/reel.gif"
+			}
+		]
+	}
+}
