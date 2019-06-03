@@ -17,7 +17,7 @@ $.getJSON("portfolio.json", function(json){
 	console.log(pathname);
 
 //if select all
-	if(pathname == "/selectall.html") {
+	if(pathname == "/selectall.html" || pathname == "/potus.html") {
 	
 		// footer = document.getElementById('0');
 		container1.html = "";
