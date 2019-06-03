@@ -24,7 +24,7 @@
 			{
 				"title": "Craigsmaps",
 				"text": ["Criagsmaps is an interactive project that brings all active Craigslists feeds into one place. It uses the Google Maps API on the right to navigate through the different listings. With each location, Craigsmpas will load listings from the community section and the for sale section."],
-				"images":["images/Craigsmaps/01.png"],
+				"images":["images/Craigsmaps/02.gif"],
 				"links": "none",
 				"tags" : "Interaction Design",
 				"year" : "2019",
