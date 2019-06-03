@@ -12,66 +12,74 @@ $.getJSON("portfolio.json", function(json){
   projectsInfo = json.content.projects;
 
 
+
 	var pathname = document.location.pathname;
 	console.log(pathname);
 
-	if(pathname == "/potus.html") {
-		clearContent();
-		jsonSection = projectsInfo[5];
+//if select all
+	if(pathname == "/selectall.html") {
+	
+		// footer = document.getElementById('0');
+		container1.html = "";
+		workHide();
+		scrollEl = '0';
+
+		section = projectsInfo[0];
+		console.log(section);
+
+		var projectCont = document.createElement('div');
+
+		projectCont.className = 'projectCont';
+		var projectInfo = document.createElement('div');
+		projectInfo.className = "projectInfo"
+
+
+		var title = section.title;
+		var titleEl = document.createElement('div');
+		titleEl.innerHTML = title; 
+		titleEl.className = "projTitle"
+
+		var tag = section.tags;
+		var tagEl = document.createElement('div');
+		tagEl.innerHTML = tag;
+		tagEl.className = "projTag";
+
+		projectInfo.appendChild(titleEl);
+		projectInfo.appendChild(tagEl);
+
+		var text = section.text; 
+		for(var i = 0; i < text.length; i ++){
+				var textEl = document.createElement('div');
+				textEl.innerHTML = text[i];
+				textEl.className = "projText";
+				projectInfo.appendChild(textEl);
+		}
+
+
+		var images = section.images;
+
+		projectCont.appendChild(projectInfo);
+
+		for(var i = 0; i < images.length; i++) {
+			console.log()
+			var el = document.createElement('img');
+			el.className = 'projImg';
+
+			var url = images[i];
+			el.src = url; 
+			projectCont.appendChild(el);
+		}
+
+
+		container1.appendChild(projectCont);
+
+		createFooter();
 		
-		var title = jsonSection.title;
-		var tag = jsonSection.tags;
-		console.log(jsonSection);
-
-		var elTitle = document.createElement('p');
-		elTitle.className = 'title';
-		elTitle.innerHTML = title;
-
-		var elTag = document.createElement('p');
-		elTag.className = 'tag';
-		elTag.innerHTML = tag;
-
-		container2.appendChild(elTitle);
-		container2.appendChild(elTag);
-
-		//DESCRPITIONS
-		var descrpitions = [];
-		for (var i = 0; i < jsonSection.text.length; i ++) {
-			var para = jsonSection.text[i];
-
-			descrpitions.push(para);
-		}
-
-		//put descriptions array into DOM
-		for(var i = 0; i < descrpitions.length; i++) {
-			var para = descrpitions[i];
-
-			var el =  document.createElement('p'); 
-			el.className = "description";
-			el.innerHTML = para; 
-
-			container2.appendChild(el);
-		}
-
-	//no links
-
-		var imgs = [];
-			for(var i = 0; i < jsonSection.images.length; i++) {
-		var anImage = jsonSection.images[i];
-		imgs.push(anImage);
+	} else {
+		createHomepage();
 	}
 
-	//from array to DOM
-		for(var i = 0; i < imgs.length; i++) {
-			var el =  document.createElement('img');
-			el.className = "workImage";
-			el.src = imgs[i];
-			container2.appendChild(el);
-		}
-		
-	}
-
-	createHomepage();
+	
 
 });
 
@@ -372,3 +380,10 @@ function nextPage(id) {
 	makeAWorkPage(newId);
 
 }
+
+
+
+
+
+
+
